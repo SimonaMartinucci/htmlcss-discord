@@ -110,11 +110,6 @@ header section {
     color: white;
 }
 
-
-
-
-
-
 /* regole corpo centrale */
 .background {
     padding: 100px 0;
@@ -128,10 +123,13 @@ header section {
     background-color: rgb(211, 211, 211);
 }
 
-.container-main {
+.container {
     width: 60%;
     margin: 0 auto;
     display: flex;
+}
+
+.main {
     justify-content: space-between;
 }
 
@@ -148,41 +146,41 @@ header section {
     padding-top: 20px;
 }
 
-.space-text h2 {
+main h2 {
     font-size: 40px;
     font-weight: 700;
     color: black;
     margin-bottom: 30px;
 }
 
-.space-text p {
+main p {
     font-size: 15px;
     line-height: 150%;
 }
 
-/* .right {
-    margin-left: 100px;
-} */
-
-.final-grey {
-    background-color: rgb(211, 211, 211);
-    /* DEBUG */
-    min-height: 500px;
-    padding: 25px 0;
+.final {
+    flex-direction: column;
+    text-align: center;
 }
 
-.download {
+.final h3 {
     width: 60%;
-    height: 450px;
-    /* DEBUG */
-    background-color: rgb(34, 139, 34);
-    border: 2px dotted black;
     margin: 0 auto;
+    padding-top: 30px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
 }
 
-
-
-
+#final-download {
+    background-color: blueviolet;
+    width: 20%;
+    color: white;
+    align-self: center;
+    margin-top: 30px;
+}
 
 /* regole footer */
 #footer-menu {
