@@ -87,12 +87,19 @@ header section {
     margin-bottom: 30px;
 }
 
-.mac {
+#container-buttons-header {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.browser {
     font-size: 16px;
     font-weight: 550;
 }
 
-.mac i {
+.browser i {
     font-size: 15px;
     font-weight: 900;
     margin-right: 5px;
@@ -101,7 +108,6 @@ header section {
 #open {
     background-color: black;
     color: white;
-    margin-left: 20px;
 }
 
 
