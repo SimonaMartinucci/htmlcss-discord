@@ -9,16 +9,18 @@ a {
     text-decoration: none;
 }
 
+/* regole header */
+
+
 /* regole menu navigazione header */
 header nav {
-    background-color: rgb(173, 216, 230);
     min-height: 40px;
     padding: 10px 0;
     /* DEBUG */
-    font-size: 12px;
+    /* font-size: 12px; */
+    background-color: rgb(173, 216, 230);
 }
 
-/* regole container menu navigazione header */
 #container-nav {
     width: 60%;
     min-height: 20px;
@@ -28,28 +30,46 @@ header nav {
     align-items: center;
     padding: 0 4px;
     /* DEBUG */
-    background-color: rgb(218, 165, 32);
-    border: 2px dotted black;
+    /* background-color: rgb(218, 165, 32);
+    border: 2px dotted black; */
+}
+
+#container-nav img {
+    width: 100px;
 }
 
 /* regole link centrali header */
 #container-nav ul {
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     /* DEBUG */
-    border-right: 2px dotted black;
-    border-left: 2px dotted black;
+    /* border-right: 2px dotted black;
+    border-left: 2px dotted black; */
+}
+
+ul a,
+.login {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 nav ul {
     list-style-type: none;
 }
 
-#container-nav li {
-    margin: 4px;
+.label {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
 }
+
+
+
+
 
 /* regole sezione principale header */
 header section {
