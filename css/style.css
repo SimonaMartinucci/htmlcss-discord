@@ -163,13 +163,16 @@ main p {
     text-align: center;
 }
 
+h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .final h3 {
     width: 60%;
     margin: 0 auto;
     padding-top: 30px;
     color: black;
-    font-size: 25px;
-    font-weight: 600;
     background-image: url(../img/stars.svg);
     background-size: contain;
 }
@@ -185,8 +188,6 @@ main p {
 /* regole footer */
 #footer-menu {
     background-color: rgb(35, 39, 42);
-    height: 350px;
-    border-bottom: 1px solid white;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -194,21 +195,58 @@ main p {
 #table-footer {
     display: flex;
     justify-content: center;
+    padding: 40px 0;
 }
 
 #icons-footer {
     width: 20%;
-    height: 320px;
-    /* DEBUG */
-    background-color: rgb(240, 128, 128);
-    border: 2px dotted black;
+    padding-right: 40px;
 }
+
+#icons-footer h3 {
+    color: blueviolet;  
+    margin-bottom: 20px; 
+}
+
+.container-language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-language img {
+    width: 20px;
+}
+
+.text-footer {
+    font-size: 11px;
+    color: white;
+}
+
+.container-icons {
+    display: flex;
+    gap: 20px;
+}
+
+#icons-footer i {
+    font-size: 15px;
+    color: white;
+    margin-top: 15px;
+}
+
+
 
 .col-footer {
     width: calc(40% / 4);
-    height: 320px;
-    background-color: rgb(32, 178, 170);
-    border: 2px dotted white;
+}
+
+.col-footer strong {
+    font-size: 13px;
+    color: blueviolet;
+}
+
+.col-footer ul {
+    list-style-type: none;
 }
 
 #footer-logo {
