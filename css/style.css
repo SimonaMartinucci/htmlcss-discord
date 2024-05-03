@@ -116,28 +116,36 @@ header section {
 
 
 /* regole corpo centrale */
-.white {
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    /* DEBUG */
-    min-height: 350px;
+.background {
     padding: 100px 0;
 }
 
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: rgb(211, 211, 211);
+}
+
+.container-main {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-image {
+    width: 60%;
+}
+
 .space-image img {
-    width: 80%;
-    /* DEBUG */
-    /* background-color: rgb(30, 144, 255);
-    border: 2px dotted black; */
+    width: 600px;
 }
 
 .space-text {
-    width: 20%;
-    /* height: 300px; */
-    /* DEBUG */
-    /* background-color: rgb(255, 192, 203);
-    border: 2px dotted black; */
+    width: 30%;
+    padding-top: 20px;
 }
 
 .space-text h2 {
@@ -152,15 +160,9 @@ header section {
     line-height: 150%;
 }
 
-
-.grey {
-    background-color: rgb(211, 211, 211);
-    display: flex;
-    justify-content: center;
-    /* DEBUG */
-    min-height: 350px;
-    padding: 25px 0;
-}
+/* .right {
+    margin-left: 100px;
+} */
 
 .final-grey {
     background-color: rgb(211, 211, 211);
