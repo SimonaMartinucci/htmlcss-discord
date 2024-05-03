@@ -32,7 +32,7 @@ header nav {
     padding: 0 4px;
 }
 
-#container-nav img {
+.logo {
     width: 100px;
 }
 
@@ -185,7 +185,7 @@ h3 {
     margin-top: 30px;
 }
 
-/* regole footer */
+/* regole prima sezione footer */
 #footer-menu {
     background-color: rgb(35, 39, 42);
     padding-top: 10px;
@@ -234,8 +234,6 @@ h3 {
     margin-top: 15px;
 }
 
-
-
 .col-footer {
     width: calc(40% / 4);
 }
@@ -247,7 +245,10 @@ h3 {
 
 .col-footer ul {
     list-style-type: none;
+    line-height: 140%;
 }
+
+/* regole seconda sezione footer */
 
 #footer-logo {
     background-color: rgb(35, 39, 42);
@@ -258,16 +259,14 @@ h3 {
 #link-footer {
     width: 60%;
     height: 35px;
-    background-color: rgb(127, 255, 212);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 30px;
 }
 
-.item {
-    font-size: 12px;
-    background-color: rgb(255, 189, 200);
-    padding: 2px 5px;
-    border: 1px dotted black;
+#violet {
+    color: white;
+    background-color: blueviolet;
 }
