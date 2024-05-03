@@ -11,14 +11,15 @@ a {
 
 /* regole header */
 
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
 
 /* regole menu navigazione header */
 header nav {
     min-height: 40px;
     padding: 10px 0;
-    /* DEBUG */
-    /* font-size: 12px; */
-    background-color: rgb(173, 216, 230);
 }
 
 #container-nav {
@@ -29,9 +30,6 @@ header nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 4px;
-    /* DEBUG */
-    /* background-color: rgb(218, 165, 32);
-    border: 2px dotted black; */
 }
 
 #container-nav img {
@@ -44,15 +42,12 @@ header nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* DEBUG */
-    /* border-right: 2px dotted black;
-    border-left: 2px dotted black; */
 }
 
 ul a,
 .login {
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -62,31 +57,57 @@ nav ul {
 
 .label {
     background-color: white;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px 15px;
+    border-radius: 20px;
     color: black;
 }
 
-
-
-
-
 /* regole sezione principale header */
 header section {
-    background-color: rgb(0, 0, 139);
     min-height: 300px;
-    padding: 25px 0;
-    border-bottom: 2px solid rgb(173, 216, 230);
+    padding: 90px 0;
 }
 
 #container-logo {
     width: 50%;
     margin: 0 auto;
-    /* DEBUG */
-    background-color: rgb(238, 130, 238);
+    text-align: center;
+    color: white;
     height: 250px;
-    border: 2px dotted black;
 }
+
+#container-logo h1 {
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+#container-logo p {
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 30px;
+}
+
+.mac {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.mac i {
+    font-size: 15px;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+#open {
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+
+
 
 /* regole corpo centrale */
 .white {
